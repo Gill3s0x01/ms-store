@@ -2,7 +2,7 @@ export default {
   title: 'dark',
   primary: {
     100: '#0d1117',
-    200: '#000000',
+    200: '#202124',
   },
 
   secondary: {
