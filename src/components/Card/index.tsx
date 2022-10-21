@@ -1,4 +1,4 @@
-import PriceTag from '../PriceTag/PriceTag'
+import { PriceTag } from '../PriceTag'
 import { Product } from '../../integrations/api'
 import {
   AddToCartButton,
