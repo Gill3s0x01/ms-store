@@ -9,12 +9,14 @@ import {
 import { FaShoppingCart } from 'react-icons/fa'
 import Switch from 'react-switch'
 import { ThemeContext } from 'styled-components'
+import { CartButton } from '../CartButton'
 
-interface Props {
+export interface HeaderProps {
   toggleTheme(): void
+  onOpenCart: () => void
 }
 
-export const Header: React.FC<Props> = ({ toggleTheme }) => {
+export const Header: React.FC<HeaderProps> = ({ toggleTheme, onOpenCart }) => {
   const { title } = useContext(ThemeContext)
   return (
     <HeaderContainer>
@@ -34,6 +36,7 @@ export const Header: React.FC<Props> = ({ toggleTheme }) => {
           width={40}
           handleDiameter={20}
         />
+        <CartButton onClick={onOpenCart} />
         <IconCart>
           <FaShoppingCart size={20} color={'#000000'} />
         </IconCart>

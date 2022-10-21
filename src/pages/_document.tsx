@@ -14,6 +14,12 @@ const Document = () => {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/favicon.ico" />
+
+        <meta
+          name="description"
+          content="Teste pratico para empresa MKS Sistemas"
+        />
       </Head>
       <body>
         <Main />

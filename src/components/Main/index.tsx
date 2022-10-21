@@ -11,6 +11,7 @@ import { useCallback, useEffect, useState } from 'react'
 import mks, { Product } from '../../integrations/api'
 import Products from '../../components/Products'
 import { NextPage } from 'next'
+import { ShoppingCartDrawer } from '../ShoppingCartDrawer'
 
 const Home: NextPage = () => {
   const [products, setProducts] = useState<Product[]>([])
@@ -62,11 +63,11 @@ const Home: NextPage = () => {
           <title>MKS Sistemas</title>
         </Head>
         <GlobalStyle />
-        <Header toggleTheme={toggleTheme} />
+        <Header toggleTheme={toggleTheme} onOpenCart={openDrawer} />
         <main>
           <Products loading={loading} products={products} />
         </main>
-        {/* <ShoppingCartDrawer visible={drawerVisible} onClose={closeDrawer} /> */}
+        <ShoppingCartDrawer visible={drawerVisible} onClose={closeDrawer} />
         <Footer />
       </MainContainer>
     </ThemeProvider>
