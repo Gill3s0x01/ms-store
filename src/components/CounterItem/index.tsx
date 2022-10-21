@@ -1,4 +1,5 @@
 import { CounterItemContainer, Counter, ButtonCounter } from './styles'
+
 export interface CounterItemProps {
   quantity: number
   onAdd: () => void
