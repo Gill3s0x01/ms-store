@@ -35,7 +35,7 @@ export const Header: React.FC<Props> = ({ toggleTheme }) => {
           handleDiameter={20}
         />
         <IconCart>
-          <FaShoppingCart size={20} />
+          <FaShoppingCart size={20} color={'#000000'} />
         </IconCart>
       </WrapperIcons>
     </HeaderContainer>
