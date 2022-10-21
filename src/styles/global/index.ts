@@ -18,6 +18,19 @@ export const GlobalStyle = createGlobalStyle`
     --z-cart: 100;
     --z-fixed: 10;
   }
+  @media screen and (min-width: 760px) {
+    :root {
+        --global-padding: 40px;
+        --header-height: 70px;
+    }
+  }
+
+  @media screen and (min-width: 1240px) {
+    :root {
+        --global-padding: 65px;
+        --header-height: 101px;
+    }
+  }
 
   //font-size: 16px (Desktop);
   html {
