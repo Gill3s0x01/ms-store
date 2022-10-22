@@ -83,22 +83,26 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
   }
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
 
   main {
     width: 100%;
     margin-top: var(--header-height);
     margin-bottom: var(--footer-height);
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  
   body {
     background-color: var(--primary-color-100);
     color: var(--secondary-color-200);
     -webkit-font-smoothing: antialiased;
+    scrollbar-width: thin;
   }
 
   a {

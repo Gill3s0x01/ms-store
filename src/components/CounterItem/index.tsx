@@ -16,7 +16,7 @@ export const CounterItem = ({
       <ButtonCounter
         disabled={quantity === 1}
         onClick={onSub}
-        style={{ fontSize: '24px', lineHeight: '29px' }}
+        style={{ fontSize: '24px', lineHeight: '20px' }}
       >
         -
       </ButtonCounter>

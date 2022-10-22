@@ -13,6 +13,9 @@ export const ShoppingCartContainer = styled.div`
   border-radius: 8px;
   margin: 13px 0;
   gap: 15px;
+  @media screen and (min-width: 768px) {
+    height: 101px;
+  }
 `
 
 export const WrapperShoppingCart = styled.div`

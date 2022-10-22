@@ -2,6 +2,11 @@ import styled, { css } from 'styled-components'
 
 export const drawerPaddingX = '32px'
 
+// --webkit-scrollbar-thumb {
+//   background-color: blue;
+//   border-radius: 20px;
+//   border: 3px solid orange;
+// }
 export const DrawerWrapper = styled.div<{ visible: boolean }>`
   position: absolute;
   top: 48px;
@@ -11,6 +16,9 @@ export const DrawerWrapper = styled.div<{ visible: boolean }>`
   z-index: ${(props) => (props.visible ? 100 : -1)};
   backdrop-filter: ${(props) => (props.visible ? 'blur(8px)' : undefined)};
   transition: all 0.3s ease-in-out;
+  @media screen and (min-width: 768px) {
+    top: 0px;
+  }
 `
 
 export const CloseButton = styled.button`
@@ -45,11 +53,23 @@ export const CartDrawerContainer = styled.div<{ visible: boolean }>`
     !props.visible ? 'translate(calc(100% + 5px))' : ''};
   transition: transform 0.3s ease-in-out;
   z-index: 101;
+
+  @media screen and (min-width: 768px) {
+    max-width: 480px;
+    ::-webkit-scrollbar {
+      width: 12px; /* width of the entire scrollbar */
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: blue;
+      border-radius: 20px;
+      border: 3px solid orange;
+    }
+  }
 `
 
 export const text700 = css`
   font-weight: 700;
-  color: #fff;
+  color: var(--primary-color-100);
 `
 
 export const Title = styled.h1`
@@ -64,12 +84,15 @@ export const CheckoutButton = styled.button`
   font-size: 20px;
   line-height: 15px;
   position: absolute;
-  background-color: #000;
+  background-color: var(--secondary-color-300);
   height: 65px;
   border: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  @media screen and (min-width: 768px) {
+    height: 97px;
+  }
 `
 
 export const CartItems = styled.div`
@@ -80,6 +103,11 @@ export const CartItems = styled.div`
   right: ${drawerPaddingX};
   overflow-y: auto;
   overflow-x: hidden;
+
+  @media screen and (min-width: 768px) {
+    right: 52px;
+    left: 47px;
+  }
 `
 
 export const TotalTextContainer = styled.div`
@@ -95,4 +123,8 @@ export const TotalTextContainer = styled.div`
   font-size: 28px;
   line-height: 2rem;
   color: #fff;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 42px;
+  }
 `
