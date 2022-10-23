@@ -9,6 +9,7 @@ export const CardContainer = styled.div`
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
   padding: 0 16px;
+  background-color: #ffffff;
 `
 
 export const ProductImage = styled.img`

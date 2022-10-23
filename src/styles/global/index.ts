@@ -11,7 +11,8 @@ export const GlobalStyle = createGlobalStyle`
     --secondary-color-100: ${(props) => props.theme.secondary['100']};
     --secondary-color-200: ${(props) => props.theme.secondary['200']};
     --secondary-color-300: ${(props) => props.theme.secondary['300']};   
-    --terciary-color: ${(props) => props.theme.terciary};  
+    --terciary-color: ${(props) => props.theme.terciary};
+    --black: #000000;
         
     --shadow-color: ${(props) => props.theme.shadow};
     /* Z-index */
@@ -84,14 +85,16 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
   }
   *::-webkit-scrollbar {
-    width: 12px;
+    width: 0px;
   }
 
   main {
     width: 100%;
-    margin-top: var(--header-height);
+    /* margin-top: var(--header-height); */
+    margin-top: calc(50px + var(--header-height));
     margin-bottom: var(--footer-height);
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    min-height: 100vh;
+    /* min-height: calc(100vh - var(--header-height) - var(--footer-height)); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +103,7 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     background-color: var(--primary-color-100);
-    color: var(--secondary-color-200);
+    color: var(--black);
     -webkit-font-smoothing: antialiased;
     scrollbar-width: thin;
     
