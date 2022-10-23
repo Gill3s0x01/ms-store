@@ -4,6 +4,7 @@ export const drawerPaddingX = '32px'
 
 export const DrawerWrapper = styled.div<{ visible: boolean }>`
   position: absolute;
+  height: 1000%;
   top: 48px;
   right: 0;
   left: 0;

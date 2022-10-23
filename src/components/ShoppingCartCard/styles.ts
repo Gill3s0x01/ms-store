@@ -24,10 +24,11 @@ export const WrapperShoppingCart = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 10px;
   @media screen and (min-width: 768px) {
     flex-direction: row;
+    /* justify-content: center; */
     width: 90%;
   }
 `
