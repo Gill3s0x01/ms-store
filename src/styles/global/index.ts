@@ -103,6 +103,7 @@ export const GlobalStyle = createGlobalStyle`
     color: var(--secondary-color-200);
     -webkit-font-smoothing: antialiased;
     scrollbar-width: thin;
+    
   }
 
   a {

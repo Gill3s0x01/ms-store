@@ -13,5 +13,5 @@ export const CardButtonContainer = styled.button`
 
 export const Counter = styled.span`
   font-weight: 700;
-  font-size: 12px;
+  font-size: 0.75rem;
 `

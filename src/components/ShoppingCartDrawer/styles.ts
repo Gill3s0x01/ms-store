@@ -22,11 +22,15 @@ export const CloseButton = styled.button`
   right: 15px;
   width: 45px;
   height: 45px;
+  font-size: 1.475rem;
   background-color: #000;
   border: 0;
   border-radius: 50%;
+  padding-bottom: 3px;
   color: var(--terciary-color);
   @media screen and (min-width: 768px) {
+    padding-bottom: 2px;
+    font-size: 1rem;
     color: #fff;
   }
 
@@ -55,10 +59,10 @@ export const CartDrawerContainer = styled.div<{ visible: boolean }>`
   @media screen and (min-width: 768px) {
     max-width: 486px;
     ::-webkit-scrollbar {
-      width: 12px; /* width of the entire scrollbar */
+      width: 8px; /* width of the entire scrollbar */
     }
     ::-webkit-scrollbar-thumb {
-      border-radius: 20px;
+      border-radius: 4px;
     }
   }
 `
@@ -71,7 +75,7 @@ export const text700 = css`
 export const Title = styled.h1`
   ${text700};
   max-width: 80%;
-  font-size: 27px;
+  font-size: 1.75rem;
   line-height: 33px;
   @media screen and (min-width: 768px) {
     max-width: 50%;
@@ -80,8 +84,8 @@ export const Title = styled.h1`
 
 export const CheckoutButton = styled.button`
   ${text700};
-  font-size: 20px;
-  line-height: 15px;
+  font-size: 1.25rem;
+  line-height: 1rem;
   position: absolute;
   background-color: var(--secondary-color-300);
   height: 65px;
@@ -118,7 +122,7 @@ export const TotalTextContainer = styled.div`
   justify-content: space-between;
 
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 2rem;
   color: #fff;
 

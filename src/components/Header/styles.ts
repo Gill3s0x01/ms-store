@@ -38,7 +38,7 @@ export const Cart = styled.button`
   color: #000000;
   border-radius: 8px;
 
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
 
   i {
@@ -55,14 +55,14 @@ export const Cart = styled.button`
   @media (min-width: 760px) {
     width: 65px;
     height: 36px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   @media (min-width: 1240px) {
     width: 80px;
     height: 45px;
     gap: 15.99px;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 `
 export const Logo = styled.div`
@@ -78,15 +78,15 @@ export const Logo = styled.div`
     display: block;
 
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
 
     @media (min-width: 760px) {
-      font-size: 18px;
+      font-size: 1.1875rem;
     }
 
     @media (min-width: 1240px) {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
 `
@@ -97,14 +97,14 @@ export const LogoName = styled.a`
   align-items: center;
 
   font-weight: 600;
-  font-size: 32px;
+  font-size: 2rem;
 
   @media (min-width: 760px) {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   @media (min-width: 1240px) {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 `
 export const IconCart = styled.div`

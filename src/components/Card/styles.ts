@@ -19,7 +19,7 @@ export const ProductImage = styled.img`
 
 export const ProductName = styled.h1`
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   word-break: break-word;
 `
@@ -27,7 +27,7 @@ export const ProductName = styled.h1`
 export const ProductDescription = styled.p`
   margin-top: 8px;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 12px;
   max-height: 30px;
 `
@@ -43,7 +43,7 @@ export const AddToCartButton = styled.button`
   background-color: ${(props) => props.theme.terciary};
   color: #fff;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 18px;
   height: 32px;
   border: none;

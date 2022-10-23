@@ -17,8 +17,8 @@ export const FooterContainer = styled.footer`
 
   h5 {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
     color: var(--secondary-color-300);
   }
 `

@@ -6,6 +6,7 @@ import {
   ProductName,
   WrapperShoppingCart,
   QtdText,
+  RemoveCartButtonMobile,
 } from './styles'
 import { CounterItem } from '../CounterItem'
 import {
@@ -42,6 +43,9 @@ export const ShoppingCartCard = ({ product }: ShoppingCartCardProps) => {
           }}
         />
       </RemoveFromCartButton>
+      <RemoveCartButtonMobile onClick={() => dispatch(removeItem(product))}>
+        X
+      </RemoveCartButtonMobile>
       <ImageCart src={product.photo} alt={product.name} />
       <ProductName>{product.name}</ProductName>
 

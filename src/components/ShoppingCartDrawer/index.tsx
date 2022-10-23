@@ -28,7 +28,10 @@ export const ShoppingCartDrawer = ({
     <>
       <DrawerWrapper onClick={onClose} visible={visible}></DrawerWrapper>
       <CartDrawerContainer visible={visible}>
-        <Title>Carrinho de compras</Title>
+        <Title>
+          Carrinho <br />
+          de compras
+        </Title>
         <CloseButton onClick={onClose}>
           <ImCross style={{ verticalAlign: 'middle' }} />
         </CloseButton>

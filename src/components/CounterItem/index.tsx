@@ -1,4 +1,9 @@
-import { CounterItemContainer, Counter, ButtonCounter } from './styles'
+import {
+  CounterItemContainer,
+  Counter,
+  ButtonCounter,
+  ButtonCounterLess,
+} from './styles'
 
 export interface CounterItemProps {
   quantity: number
@@ -13,18 +18,15 @@ export const CounterItem = ({
 }: CounterItemProps) => {
   return (
     <CounterItemContainer>
-      <ButtonCounter
+      <ButtonCounterLess
         disabled={quantity === 1}
         onClick={onSub}
-        style={{ fontSize: '24px', lineHeight: '20px' }}
+        style={{ lineHeight: '2px' }}
       >
         -
-      </ButtonCounter>
+      </ButtonCounterLess>
       <Counter>{quantity}</Counter>
-      <ButtonCounter
-        onClick={onAdd}
-        style={{ fontSize: '22px', lineHeight: '27px' }}
-      >
+      <ButtonCounter onClick={onAdd} style={{ lineHeight: '27px' }}>
         +
       </ButtonCounter>
     </CounterItemContainer>

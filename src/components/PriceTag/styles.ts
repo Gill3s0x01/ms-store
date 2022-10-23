@@ -9,7 +9,7 @@ export const PriceTagContainer = styled.span`
   background-color: #373737;
   color: #fff;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 1rem;
+  line-height: 1rem;
   padding: 4px 6px;
 `

@@ -34,9 +34,13 @@ export const WrapperShoppingCart = styled.div`
 
 export const ProductName = styled.span`
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.1875rem;
   color: #2c2c2c;
+  @media screen and (min-width: 768px) {
+    min-width: 20%;
+    max-width: 20%;
+  }
 `
 
 export const ImageCart = styled.img`
@@ -50,18 +54,46 @@ export const ImageCart = styled.img`
 `
 
 export const RemoveFromCartButton = styled.button`
+  display: none;
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border: 0;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    transition: transform 0.1s ease-in-out;
+    display: block;
+
+    &:active {
+      transform: scale(1.2);
+    }
+  }
+`
+
+export const RemoveCartButtonMobile = styled.button`
   position: absolute;
-  top: -5px;
-  right: -5px;
+  text-decoration: none;
+  background-color: transparent;
+  top: 15px;
+  right: 20px;
   border: 0;
-  border-radius: 50%;
   width: 18px;
   height: 18px;
-  background-color: #000;
+  color: #000;
+  font-weight: 400;
+  font-size: 2.625rem;
+  line-height: 19px;
   transition: transform 0.1s ease-in-out;
+  display: flex;
 
   &:active {
     transform: scale(1.2);
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 `
 export const QtdText = styled.small`
@@ -71,6 +103,6 @@ export const QtdText = styled.small`
     position: relative;
     margin-bottom: 40px;
     margin-right: -25px;
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 `
