@@ -2,11 +2,6 @@ import styled, { css } from 'styled-components'
 
 export const drawerPaddingX = '32px'
 
-// --webkit-scrollbar-thumb {
-//   background-color: blue;
-//   border-radius: 20px;
-//   border: 3px solid orange;
-// }
 export const DrawerWrapper = styled.div<{ visible: boolean }>`
   position: absolute;
   top: 48px;
@@ -30,7 +25,10 @@ export const CloseButton = styled.button`
   background-color: #000;
   border: 0;
   border-radius: 50%;
-  color: #fff;
+  color: var(--terciary-color);
+  @media screen and (min-width: 768px) {
+    color: #fff;
+  }
 
   &:active {
     filter: brightness(999%);
@@ -55,14 +53,12 @@ export const CartDrawerContainer = styled.div<{ visible: boolean }>`
   z-index: 101;
 
   @media screen and (min-width: 768px) {
-    max-width: 480px;
+    max-width: 486px;
     ::-webkit-scrollbar {
       width: 12px; /* width of the entire scrollbar */
     }
     ::-webkit-scrollbar-thumb {
-      background-color: blue;
       border-radius: 20px;
-      border: 3px solid orange;
     }
   }
 `
@@ -77,6 +73,9 @@ export const Title = styled.h1`
   max-width: 80%;
   font-size: 27px;
   line-height: 33px;
+  @media screen and (min-width: 768px) {
+    max-width: 50%;
+  }
 `
 
 export const CheckoutButton = styled.button`
@@ -105,7 +104,6 @@ export const CartItems = styled.div`
   overflow-x: hidden;
 
   @media screen and (min-width: 768px) {
-    right: 52px;
     left: 47px;
   }
 `

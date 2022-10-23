@@ -15,6 +15,8 @@ export const ShoppingCartContainer = styled.div`
   gap: 15px;
   @media screen and (min-width: 768px) {
     height: 101px;
+    width: 390px;
+    flex-direction: row;
   }
 `
 
@@ -24,6 +26,10 @@ export const WrapperShoppingCart = styled.div`
   align-items: center;
   justify-content: center;
   gap: 10px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    width: 90%;
+  }
 `
 
 export const ProductName = styled.span`
@@ -33,9 +39,14 @@ export const ProductName = styled.span`
   color: #2c2c2c;
 `
 
-export const Image = styled.img`
-  width: 80px;
-  height: 95.1px;
+export const ImageCart = styled.img`
+  width: auto;
+  height: 95px;
+  @media screen and (min-width: 768px) {
+    margin-left: 20px;
+    height: 85px;
+    margin-top: 0px;
+  }
 `
 
 export const RemoveFromCartButton = styled.button`
@@ -51,5 +62,15 @@ export const RemoveFromCartButton = styled.button`
 
   &:active {
     transform: scale(1.2);
+  }
+`
+export const QtdText = styled.small`
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+    margin-right: -25px;
+    font-size: 10px;
   }
 `

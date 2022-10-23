@@ -1,10 +1,11 @@
-import { PriceTag } from '../PriceTag'
+import { PriceItem } from '../PriceItem'
 import {
   ShoppingCartContainer,
   RemoveFromCartButton,
-  Image,
+  ImageCart,
   ProductName,
   WrapperShoppingCart,
+  QtdText,
 } from './styles'
 import { CounterItem } from '../CounterItem'
 import {
@@ -36,20 +37,22 @@ export const ShoppingCartCard = ({ product }: ShoppingCartCardProps) => {
           size={8}
           style={{
             verticalAlign: 'middle',
-            margin: '-1 0 0 -1',
+            margin: '-1 -1.5 1 -1',
             color: '#fff',
           }}
         />
       </RemoveFromCartButton>
-      <Image src={product.photo} alt={product.name} />
+      <ImageCart src={product.photo} alt={product.name} />
       <ProductName>{product.name}</ProductName>
+
       <WrapperShoppingCart>
+        <QtdText>Qtd:</QtdText>
         <CounterItem
           quantity={product.quantity}
           onAdd={() => dispatch(addItem(product))}
           onSub={decrement}
         ></CounterItem>
-        <PriceTag style={{ height: 35 }} price={+product.price} />
+        <PriceItem price={+product.price * product.quantity} />
       </WrapperShoppingCart>
     </ShoppingCartContainer>
   )

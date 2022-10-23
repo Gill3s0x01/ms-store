@@ -5,6 +5,15 @@ export const CounterItemContainer = styled.div`
   border: 0.3px solid #bfbfbf;
   border-radius: 4px;
   vertical-align: baseline;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20px;
+    width: 55px;
+    margin-left: -10px;
+  }
 `
 
 export const Counter = styled.span`
@@ -16,6 +25,16 @@ export const Counter = styled.span`
   border-bottom: 0;
   width: 40px;
   text-align: center;
+  @media screen and (min-width: 768px) {
+    width: 30px;
+    line-height: 18px;
+    font-size: 14px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
 `
 
 export const ButtonCounter = styled.button`
