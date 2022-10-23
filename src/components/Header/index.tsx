@@ -6,7 +6,7 @@ import {
   IconCart,
   WrapperIcons,
 } from './styles'
-import { FaShoppingCart } from 'react-icons/fa'
+// import { FaShoppingCart } from 'react-icons/fa'
 import Switch from 'react-switch'
 import { ThemeContext } from 'styled-components'
 import { CartButton } from '../CartButton'
@@ -37,9 +37,9 @@ export const Header: React.FC<HeaderProps> = ({ toggleTheme, onOpenCart }) => {
           handleDiameter={20}
         />
         <CartButton onClick={onOpenCart} />
-        <IconCart>
+        {/* <IconCart>
           <FaShoppingCart size={20} color={'#000000'} />
-        </IconCart>
+        </IconCart> */}
       </WrapperIcons>
     </HeaderContainer>
   )
