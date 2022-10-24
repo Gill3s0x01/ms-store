@@ -3,17 +3,17 @@ import styled, { css } from 'styled-components'
 export const drawerPaddingX = '32px'
 
 export const DrawerWrapper = styled.div<{ visible: boolean }>`
-  position: absolute;
-  height: 1000%;
-  top: 48px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: ${(props) => (props.visible ? 100 : -1)};
-  backdrop-filter: ${(props) => (props.visible ? 'blur(8px)' : undefined)};
-  transition: all 0.3s ease-in-out;
+  height: none;
   @media screen and (min-width: 768px) {
+    height: 120%;
     top: 0px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: ${(props) => (props.visible ? 100 : -1)};
+    backdrop-filter: ${(props) => (props.visible ? 'blur(8px)' : undefined)};
+    transition: all 0.3s ease-in-out;
   }
 `
 

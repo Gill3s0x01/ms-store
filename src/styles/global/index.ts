@@ -87,14 +87,15 @@ export const GlobalStyle = createGlobalStyle`
   *::-webkit-scrollbar {
     width: 0px;
   }
+  ::-webkit-scrollbar-track {
+    background: transparent;        
+  }
 
   main {
     width: 100%;
-    /* margin-top: var(--header-height); */
     margin-top: calc(50px + var(--header-height));
     margin-bottom: var(--footer-height);
-    min-height: 100vh;
-    /* min-height: calc(100vh - var(--header-height) - var(--footer-height)); */
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,9 +105,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: var(--primary-color-100);
     color: var(--black);
-    -webkit-font-smoothing: antialiased;
-    scrollbar-width: thin;
-    
   }
 
   a {

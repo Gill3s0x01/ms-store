@@ -58,12 +58,12 @@ const Home: NextPage = () => {
   }, [fetchProducts])
   return (
     <ThemeProvider theme={darkTheme}>
+      <Head>
+        <title>MKS Sistemas</title>
+      </Head>
+      <Header toggleTheme={toggleTheme} onOpenCart={openDrawer} />
       <MainContainer>
-        <Head>
-          <title>MKS Sistemas</title>
-        </Head>
         <GlobalStyle />
-        <Header toggleTheme={toggleTheme} onOpenCart={openDrawer} />
         <main>
           <Products loading={loading} products={products} />
         </main>
