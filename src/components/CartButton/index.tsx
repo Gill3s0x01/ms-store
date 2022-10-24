@@ -14,6 +14,7 @@ export interface CartButtonProps {
 
 export const CartButton = ({ onClick }: CartButtonProps) => {
   const cartProductsCount = useAppSelector(selectProductsCount)
+
   return (
     <CardButtonContainer onClick={onClick}>
       <WrapperIconMobile>

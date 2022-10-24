@@ -1,12 +1,6 @@
 import { useContext } from 'react'
-import {
-  HeaderContainer,
-  Logo,
-  LogoName,
-  IconCart,
-  WrapperIcons,
-} from './styles'
-// import { FaShoppingCart } from 'react-icons/fa'
+import { HeaderContainer, Logo, LogoName, WrapperIcons } from './styles'
+
 import Switch from 'react-switch'
 import { ThemeContext } from 'styled-components'
 import { CartButton } from '../CartButton'
@@ -37,9 +31,6 @@ export const Header: React.FC<HeaderProps> = ({ toggleTheme, onOpenCart }) => {
           handleDiameter={20}
         />
         <CartButton onClick={onOpenCart} />
-        {/* <IconCart>
-          <FaShoppingCart size={20} color={'#000000'} />
-        </IconCart> */}
       </WrapperIcons>
     </HeaderContainer>
   )

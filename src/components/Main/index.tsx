@@ -12,6 +12,8 @@ import mks, { Product } from '../../integrations/api'
 import Products from '../../components/Products'
 import { NextPage } from 'next'
 import { ShoppingCartDrawer } from '../ShoppingCartDrawer'
+import { selectProductsCount } from '../../store/store'
+import { useAppSelector } from '../../Hooks/redux'
 
 const Home: NextPage = () => {
   const [products, setProducts] = useState<Product[]>([])
@@ -21,6 +23,8 @@ const Home: NextPage = () => {
     'theme',
     light
   )
+  const cartProductsCount = useAppSelector(selectProductsCount)
+
   const toggleTheme = () => {
     setDarkTheme(darkTheme.title === 'light' ? dark : light)
   }
@@ -30,6 +34,14 @@ const Home: NextPage = () => {
 
   const closeDrawer = () => {
     setDrawerVisible(false)
+  }
+
+  function validationCartButton() {
+    if (cartProductsCount <= 0) {
+      return alert('Não há itens no carrinho')
+    } else {
+      return openDrawer()
+    }
   }
 
   const fetchProducts = useCallback(async () => {
@@ -61,7 +73,8 @@ const Home: NextPage = () => {
       <Head>
         <title>MKS Sistemas</title>
       </Head>
-      <Header toggleTheme={toggleTheme} onOpenCart={openDrawer} />
+
+      <Header toggleTheme={toggleTheme} onOpenCart={validationCartButton} />
       <MainContainer>
         <GlobalStyle />
         <main>
