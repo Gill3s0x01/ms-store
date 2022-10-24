@@ -14,6 +14,8 @@ import { NextPage } from 'next'
 import { ShoppingCartDrawer } from '../ShoppingCartDrawer'
 import { selectProductsCount } from '../../store/store'
 import { useAppSelector } from '../../Hooks/redux'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const Home: NextPage = () => {
   const [products, setProducts] = useState<Product[]>([])
@@ -35,10 +37,21 @@ const Home: NextPage = () => {
   const closeDrawer = () => {
     setDrawerVisible(false)
   }
+  const notify = () =>
+    toast.warning('Não há itens no seu carrinho!', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'colored',
+    })
 
-  function validationCartButton() {
+  const validationCartButton = () => {
     if (cartProductsCount <= 0) {
-      return alert('Não há itens no carrinho')
+      return notify()
     } else {
       return openDrawer()
     }
@@ -76,6 +89,18 @@ const Home: NextPage = () => {
 
       <Header toggleTheme={toggleTheme} onOpenCart={validationCartButton} />
       <MainContainer>
+        <ToastContainer
+          position="top-right"
+          autoClose={1000}
+          hideProgressBar={true}
+          newestOnTop={true}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="colored"
+        />
         <GlobalStyle />
         <main>
           <Products loading={loading} products={products} />
