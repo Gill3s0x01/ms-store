@@ -20,6 +20,7 @@ export interface Product {
   price: string
   createdAt: string
   updatedAt: string
+  onClick?: () => void
 }
 
 export interface FetchProductsResponse {
