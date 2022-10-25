@@ -60,7 +60,7 @@ export type AppDispatch = typeof store.dispatch
 export const selectTotal = (state: RootState) =>
   selectProducts(state).reduce(
     (sum, product) => sum + +product.price * product.quantity,
-    0
+    0,
   )
 
 export const selectProducts = (state: RootState): CountedProduct[] => {

@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   const [drawerVisible, setDrawerVisible] = useState(false)
   const [darkTheme, setDarkTheme] = usePersistedState<DefaultTheme>(
     'theme',
-    light
+    light,
   )
   const cartProductsCount = useAppSelector(selectProductsCount)
 

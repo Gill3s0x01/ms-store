@@ -33,7 +33,7 @@ export default {
         '/api/v1/products',
         {
           params,
-        }
+        },
       )
       return response.data.products
     } catch (e) {
