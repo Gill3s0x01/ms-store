@@ -87,7 +87,11 @@ const Home: NextPage = () => {
         <title>MKS Sistemas</title>
       </Head>
 
-      <Header toggleTheme={toggleTheme} onOpenCart={validationCartButton} />
+      <Header
+        toggleTheme={toggleTheme}
+        onOpenCart={validationCartButton}
+        data-testid="button-cart"
+      />
       <MainContainer>
         <ToastContainer
           position="top-right"

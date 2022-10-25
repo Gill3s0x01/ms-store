@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({ toggleTheme, onOpenCart }) => {
           width={40}
           handleDiameter={20}
         />
-        <CartButton onClick={onOpenCart} />
+        <CartButton onClick={onOpenCart} data-testid="button-cart" />
       </WrapperIcons>
     </HeaderContainer>
   )

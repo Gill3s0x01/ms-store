@@ -3,8 +3,8 @@ import { ThemeProvider } from 'styled-components'
 import { Product } from '../integrations/api'
 import { Provider } from 'react-redux'
 import store from '../store/store'
-import light from './../styles/Themes/light'
-import dark from './../styles/Themes/dark'
+import light from '../styles/Themes/light'
+import dark from '../styles/Themes/dark'
 
 export const withStore = (Component: JSX.Element) => {
   return <Provider store={store}>{Component}</Provider>

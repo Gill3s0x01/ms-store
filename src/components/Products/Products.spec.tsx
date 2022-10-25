@@ -1,12 +1,10 @@
 import { render } from '@testing-library/react'
 import Products from '.'
 
-import { mockProducts, withStore, withTheme } from '../../test/utils'
+import { mockProducts, withStore, withTheme } from '../../tests/utils'
 
 it('should render skeletons', () => {
-  const { container } = render(
-    withStore(<Products products={[]} loading={true} />),
-  )
+  const { container } = render(withStore(<Products products={[]} loading />))
   expect(container).toMatchSnapshot()
 })
 

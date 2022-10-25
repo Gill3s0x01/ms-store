@@ -3,34 +3,34 @@
 exports[`should render given products 1`] = `
 <div>
   <ul
-    class="sc-kDDrLX iPcPaR"
+    class="sc-kDvujY foHazd"
   >
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="Iphone 11 128 GB"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone11x128.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             Iphone 11 128 GB
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 5.000
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.
         </p>
@@ -38,10 +38,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -71,30 +71,30 @@ exports[`should render given products 1`] = `
     </li>
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="AirPods"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/airpods.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             AirPods
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 1.200
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           Criados pela Apple Ligam e se conectam automaticamente Configuração com apenas um toque para todos seus aparelhos Apple.
         </p>
@@ -102,10 +102,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -135,30 +135,30 @@ exports[`should render given products 1`] = `
     </li>
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="Macbook Air"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/macbookair.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             Macbook Air
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 8.200
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           Processador intel Core i5 de dois núcleos e 1,8 GHz (Turbo Boost de até 2,9 GHz) com cache L3 compartilhado de 3 MB.
         </p>
@@ -166,10 +166,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -199,30 +199,30 @@ exports[`should render given products 1`] = `
     </li>
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="iPhone 12 64 GB"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone12x64.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             iPhone 12 64 GB
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 6.500
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.
         </p>
@@ -230,10 +230,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -263,30 +263,30 @@ exports[`should render given products 1`] = `
     </li>
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="Apple Watch Series 7"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/applewatch-series7.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             Apple Watch Series 7
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 3.200
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           O Apple Watch faz coisas que outros aparelhos não conseguem porque ele fica no seu pulso.
         </p>
@@ -294,10 +294,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -327,30 +327,30 @@ exports[`should render given products 1`] = `
     </li>
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="iPad"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/ipadair.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             iPad
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 4.200
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           iPad é uma linha de tablets projetada, desenvolvida e comercializada pela Apple, que funciona com o sistema operacional móvel iOS e iPadOS.
         </p>
@@ -358,10 +358,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -391,30 +391,30 @@ exports[`should render given products 1`] = `
     </li>
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="Headset Cloud Revolver"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperx-cloudrevolver.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             Headset Cloud Revolver
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 1.000
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           A linha HyperX Cloud Revolver foi projetada para atender as exigências dos gamers de PC ou de console.
         </p>
@@ -422,10 +422,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -455,30 +455,30 @@ exports[`should render given products 1`] = `
     </li>
     <li>
       <div
-        class="sc-gsnTZi syHTx"
+        class="sc-gswNZR cjGwyM"
       >
         <img
           alt="Headset Cloud Stinger"
-          class="sc-dkzDqf bFvDCI"
+          class="sc-dkrFOg kwQKsm"
           src="https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperxcloudstinger.webp"
         />
         <div
-          class="sc-jSMfEi laoEdf"
+          class="sc-jSUZER hGltBr"
         >
           <h1
-            class="sc-hKMtZM eDkWcw"
+            class="sc-hLBbgP QvVWx"
           >
             Headset Cloud Stinger
           </h1>
           <span
-            class="sc-bczRLJ fvLqnu"
+            class="sc-bcXHqe ghaimb"
             style="height: 30px;"
           >
             R$ 600
           </span>
         </div>
         <p
-          class="sc-eCYdqJ dfRMpl"
+          class="sc-eDvSVe dSFKiF"
         >
           O HyperX Cloud Stinger™ é o headset ideal para jogadores que procuram leveza e conforto, qualidade de som superior e maior praticidade.
         </p>
@@ -486,10 +486,10 @@ exports[`should render given products 1`] = `
           style="flex: 1;"
         />
         <button
-          class="sc-gKXOVf hEQAyR"
+          class="sc-gKPRtg bkmhPj"
         >
           <svg
-            class="sc-iBkjds dFEFZF"
+            class="sc-iBYQkv cREeEt"
             fill="none"
             height="1em"
             stroke="currentColor"
@@ -524,134 +524,134 @@ exports[`should render given products 1`] = `
 exports[`should render skeletons 1`] = `
 <div>
   <ul
-    class="sc-kDDrLX iPcPaR"
+    class="sc-kDvujY foHazd"
   >
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
     <div
-      class="sc-gsnTZi sc-jqUVSM syHTx ccbHaF"
+      class="sc-gswNZR sc-jrcTuL cjGwyM biTDni"
     >
       <div
-        class="sc-ftvSup diTfsO"
+        class="sc-ftTHYK dDbuGT"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
       <div
-        class="sc-papXJ fekGrp"
+        class="sc-pyfCe cwTElE"
       />
     </div>
   </ul>
