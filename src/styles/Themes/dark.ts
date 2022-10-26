@@ -8,7 +8,7 @@ export default {
   secondary: {
     100: '#999999',
     200: '#D7D7D7',
-    300: '#FFFFFF',
+    300: '#F9f9f9',
   },
 
   terciary: '#0F52BA',

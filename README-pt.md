@@ -19,7 +19,7 @@
   </a>
 </p>
 
-> <p align="center"> :rocket: Project created for competency test. </p>
+> <p align="center"> :rocket: Projeto criado para teste de competência. </p>
 
 <p align="center">
     <a href="README.md">English</a>
@@ -28,7 +28,7 @@
  </p>
 
 <div align="center">
-  <sub>The Products MKS System. Built with ❤︎ by
+  <sub>O E-commerce de produtos MKS. Construído com ❤︎ por
     <a href="https://github.com/Gilles30">Lorison Gilles</a> and
     <a href="https://github.com/Gilles30/mks-sistemas/">
       contributors
@@ -36,58 +36,58 @@
   </sub>
 </div>
 
-# :pushpin: Table of Contents
+# :pushpin: Indice
 
-- [:pushpin: Table of Contents](#pushpin-table-of-contents)
-    - [Web Screenshot and out of scope items](#web-screenshot-and-out-of-scope-items)
-    - [Mobile Screenshot](#mobile-screenshot)
+- [:pushpin: Indice](#pushpin-indice)
+    - [Captura de tela da Web e itens fora do escopo](#captura-de-tela-da-web-e-itens-fora-do-escopo)
+    - [Prints Mobile](#prints-mobile)
 - [:eyes: Demo Website](#eyes-demo-website)
-- [:computer: Technologies](#computer-technologies)
+- [:computer: Tecnologias](#computer-tecnologias)
 - [:rocket: Features](#rocket-features)
-- [:rocket: Figma updated / StyleGuide](#rocket-figma-updated--styleguide)
-- [:construction_worker: How to run](#construction_worker-how-to-run)
-    - [📦 Run API](#-run-api)
-    - [💻 Run Web Project](#-run-web-project)
+- [:rocket: Figma atualizado / StyleGuide](#rocket-figma-atualizado--styleguide)
+- [:construction_worker: Como rodar](#construction_worker-como-rodar)
+    - [📦 Rodar API](#-rodar-api)
+    - [💻 Rodar Projeto Web](#-rodar-projeto-web)
 - [:bug: Issues](#bug-issues)
-- [:tada: Contributing](#tada-contributing)
-  - [🤝 Contributing](#-contributing)
-- [:closed_book: License](#closed_book-license)
+- [:tada: Contribuindo](#tada-contribuindo)
+  - [🤝 Contribuindo](#-contribuindo)
+- [:closed_book: Licenca](#closed_book-licenca)
 
 </p>
 
 </br></br>
 
-### Web Screenshot and out of scope items
+### Captura de tela da Web e itens fora do escopo
 
 </br>
 
 <div align="center">
    <img src="./public/mks-web.jpg" width="950px">
    <p>
-    A product page, where we can see the number of items in the  cart.
-    We were able to add more items to the cart by clicking on the plus and reducing the items by clicking on the minus.
+    Uma página do produto, onde podemos ver o número de itens no carrinho.
+     Conseguimos adicionar mais itens ao carrinho clicando no sinal de mais e reduzindo os itens clicando no menos.
    </p>
    </br></br>
    <img src="./public/mks-dark-desktop.jpg" width="950px">
    </br></br>
    <p>
-    I created a dark mode triggered by a switch in the Header
+    Eu criei um modo escuro acionado por um interruptor no cabeçalho
    </p>
    </br></br>
    <img src="./public/mks-notification.jpg" width="950px">
    <p>
-    I created a validation, when there are no items selected in the cart, when clicking on the cart icon to open it, a toast appears with a notification
+    Criei uma validação, quando não há itens selecionados no carrinho, ao clicar no ícone do carrinho para abri-lo, aparece um brinde com uma notificação
    </p>
    </br></br>
    <img src="./public/blur-cart.jpg" width="950px">
    <p>
-    I created a blur effect when opening the cart, making the list items a little blurry
+    Criei um efeito de desfoque ao abrir o carrinho, deixando os itens da lista um pouco embaçados
    </p>
    
 </div>
 </br>
 
-### Mobile Screenshot
+### Prints Mobile
 
 <div align="center">
   <img src="./public/mobile.jpg" alt="mobile"     widht="300px"/>
@@ -99,14 +99,14 @@
 
 # :eyes: Demo Website
 
-You can acess the website at:  
+Você pode acessar o site em:
 👉 demo:
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://mks-sistemas-three.vercel.app/)
 
-# :computer: Technologies
+# :computer: Tecnologias
 
-This project was made using the follow technologies:
+Este projeto foi feito utilizando as seguintes tecnologias:
 
 - [Typescript](https://www.typescriptlang.org/)
 - [NextJs](https://nextjs.org/)
@@ -123,11 +123,11 @@ This project was made using the follow technologies:
 
 # :rocket: Features
 
-- Product listing.
-- Item selection for cart.
-- Responsive layout.
+- Listagem de produtos.
+- Seleção de itens para carrinho.
+- Layout responsivo.
 
-# :rocket: Figma updated / StyleGuide
+# :rocket: Figma atualizado / StyleGuide
 
 <div align="center">
   <img src="./public/colors-styleguide-figma.jpg" alt="style-guide-colors" widht="950px"/>
@@ -135,14 +135,14 @@ This project was made using the follow technologies:
 </div>
   https://www.figma.com/file/gnbWP5GvE1a3rT9hkqMB6N/MKS-Front-end-challenge-(Copy)?node-id=5%3A207
 
-# :construction_worker: How to run
+# :construction_worker: Como rodar
 
 ```bash
 # Clone Repository
 $ git clone https://github.com/Gilles30/mks-sistemas.git
 ```
 
-### 📦 Run API
+### 📦 Rodar API
 
 - API consumed directly from the cloud!
 
@@ -160,9 +160,9 @@ $ Product {
   }
 ```
 
-Access docs API at mks-frontend-challenge-api.herokuapp.com/api-docs/
+Acesse a API de documentos em mks-frontend-challenge-api.herokuapp.com/api-docs/
 
-### 💻 Run Web Project
+### 💻 Rodar Projeto Web
 
 ```bash
 # Go to web folder
@@ -180,35 +180,35 @@ Go to http://localhost:3000
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [Proffy](https://github.com/Gilles30/mks-sistemas/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Fique à vontade para **arquivar uma nova edição** com o respectivo título e descrição no repositório [MKS](https://github.com/Gilles30/mks-sistemas/issues) repositório. Se você já encontrou uma solução para o seu problema, **eu adoraria analisar sua solicitação de pull**!
 
-# :tada: Contributing
+# :tada: Contribuindo
 
-Check out the [contributing](./CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+Confira a [contributing](./CONTRIBUTING.md) página para ver os melhores lugares para arquivar problemas, iniciar discussões e começar a contribuir.
 
-## 🤝 Contributing
+## 🤝 Contribuindo
 
-Follow the steps below to contribute:
+Siga os passos abaixo para contribuir:
 
-1.  _fork_ the project (<https://github.com/Gilles30/mks-sistemas>)
+1.  _fork_ o projeto (<https://github.com/Gilles30/mks-sistemas>)
 
-2.  Clone your _fork_ to your machine (`git clone https://github.com/Gilles30/mks-sistemas.git`)
+2.  Faça um clone com _fork_ para sua máquina (`git clone https://github.com/Gilles30/mks-sistemas.git`)
 
-3.  Create a _branch_ to carry out your modification (`git checkout -b feature/name_new_feature`)
+3.  Crie um _branch_ para realizar sua modificação (`git checkout -b feature/name_new_feature`)
 
-4.  Add your modifications and do the _commit_ (`git commit -m "Descreva sua modificação"`)
+4.  Adicione suas modificações e faça o _commit_ (`git commit -m "Descreva sua modificação"`)
 
 5.  _Push_ (`git push origin feature/name_new_feature`)
 
-6.  Create a new _Pull Request_
+6.  Crie uma nova _Pull Request_
 
-7.  Okay, now just wait for the analysis 🚀
+7.  Ok, agora é só esperar a análise 🚀
 
-# :closed_book: License
+# :closed_book: Licenca
 
-Released in 2022 :closed_book: License
+Lançado em 2022 :closed_book: License
 
-Made with love by [Lorison Gilles](https://github.com/Gilles30) 🚀.
-This project is under the [MIT license](./LICENSE).
+Feito com amor [Lorison Gilles](https://github.com/Gilles30) 🚀.
+Este projeto está sob a [MIT license](./LICENSE).
 
-Give a ⭐️ if this project helped you!
+Dê um ⭐️ se esse projeto te ajudou!
