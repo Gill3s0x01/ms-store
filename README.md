@@ -8,19 +8,14 @@
    <a href="https://www.linkedin.com/in/lorison-gilles/">
       <img alt="Lorison Gilles" src="https://img.shields.io/badge/-LorisonGilles-8257E5?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/
-ms-store?color=774DD6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/ms-store?color=774DD6">
 
-  <a href="https://github.com/Gilles30/
-ms-store/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/
-ms-store?color=774DD6">
+  <a href="https://github.com/Gilles30/ms-store/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/ms-store?color=774DD6">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
-  <a href="https://github.com/Gilles30/
-ms-store/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/
-ms-store?color=8257E5&logo=github">
+  <a href="https://github.com/Gilles30/ms-store/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/ms-store?color=8257E5&logo=github">
   </a>
 </p>
 
@@ -35,8 +30,7 @@ ms-store?color=8257E5&logo=github">
 <div align="center">
   <sub>The Products MKS System. Built with ❤︎ by
     <a href="https://github.com/Gilles30">Lorison Gilles</a> and
-    <a href="https://github.com/Gilles30/
-ms-store/">
+    <a href="https://github.com/Gilles30/ms-store/">
       contributors
     </a>
   </sub>
@@ -108,8 +102,7 @@ ms-store/">
 You can acess the website at:  
 👉 demo:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://
-ms-store-three.vercel.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://ms-store-three.vercel.app/)
 
 # :computer: Technologies
 
@@ -189,8 +182,7 @@ Go to http://localhost:3000
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [Proffy](https://github.com/Gilles30/
-ms-store/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Proffy](https://github.com/Gilles30/ms-store/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
 # :tada: Contributing
 
@@ -200,11 +192,9 @@ Check out the [contributing](./CONTRIBUTING.md) page to see the best places to f
 
 Follow the steps below to contribute:
 
-1.  _fork_ the project (<https://github.com/Gilles30/
-ms-store>)
+1.  _fork_ the project (<https://github.com/Gilles30/ms-store>)
 
-2.  Clone your _fork_ to your machine (`git clone https://github.com/Gilles30/
-ms-store.git`)
+2.  Clone your _fork_ to your machine (`git clone https://github.com/Gilles30/ms-store.git`)
 
 3.  Create a _branch_ to carry out your modification (`git checkout -b feature/name_new_feature`)
 
