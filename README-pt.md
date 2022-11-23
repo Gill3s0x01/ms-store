@@ -8,14 +8,19 @@
    <a href="https://www.linkedin.com/in/lorison-gilles/">
       <img alt="Lorison Gilles" src="https://img.shields.io/badge/-LorisonGilles-8257E5?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/mks-sistemas?color=774DD6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/
+ms-store?color=774DD6">
 
-  <a href="https://github.com/Gilles30/mks-sistemas/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/mks-sistemas?color=774DD6">
+  <a href="https://github.com/Gilles30/
+ms-store/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/
+ms-store?color=774DD6">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
-  <a href="https://github.com/Gilles30/mks-sistemas/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/mks-sistemas?color=8257E5&logo=github">
+  <a href="https://github.com/Gilles30/
+ms-store/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/
+ms-store?color=8257E5&logo=github">
   </a>
 </p>
 
@@ -30,7 +35,8 @@
 <div align="center">
   <sub>O E-commerce de produtos MKS. Construído com ❤︎ por
     <a href="https://github.com/Gilles30">Lorison Gilles</a> and
-    <a href="https://github.com/Gilles30/mks-sistemas/">
+    <a href="https://github.com/Gilles30/
+ms-store/">
       contributors
     </a>
   </sub>
@@ -102,7 +108,8 @@
 Você pode acessar o site em:
 👉 demo:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://mks-sistemas-three.vercel.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://
+ms-store-three.vercel.app/)
 
 # :computer: Tecnologias
 
@@ -139,7 +146,8 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/Gilles30/mks-sistemas.git
+$ git clone https://github.com/Gilles30/
+ms-store.git
 ```
 
 ### 📦 Rodar API
@@ -166,7 +174,8 @@ Acesse a API de documentos em mks-frontend-challenge-api.herokuapp.com/api-docs/
 
 ```bash
 # Go to web folder
-$ cd mks-sistemas
+$ cd 
+ms-store
 
 # Install Dependencies (Only if you haven't installed the dependencies before)
 $ yarn
@@ -180,7 +189,8 @@ Go to http://localhost:3000
 
 # :bug: Issues
 
-Fique à vontade para **arquivar uma nova edição** com o respectivo título e descrição no repositório [MKS](https://github.com/Gilles30/mks-sistemas/issues) repositório. Se você já encontrou uma solução para o seu problema, **eu adoraria analisar sua solicitação de pull**!
+Fique à vontade para **arquivar uma nova edição** com o respectivo título e descrição no repositório [MKS](https://github.com/Gilles30/
+ms-store/issues) repositório. Se você já encontrou uma solução para o seu problema, **eu adoraria analisar sua solicitação de pull**!
 
 # :tada: Contribuindo
 
@@ -190,9 +200,11 @@ Confira a [contributing](./CONTRIBUTING.md) página para ver os melhores lugares
 
 Siga os passos abaixo para contribuir:
 
-1.  _fork_ o projeto (<https://github.com/Gilles30/mks-sistemas>)
+1.  _fork_ o projeto (<https://github.com/Gilles30/
+ms-store>)
 
-2.  Faça um clone com _fork_ para sua máquina (`git clone https://github.com/Gilles30/mks-sistemas.git`)
+2.  Faça um clone com _fork_ para sua máquina (`git clone https://github.com/Gilles30/
+ms-store.git`)
 
 3.  Crie um _branch_ para realizar sua modificação (`git checkout -b feature/name_new_feature`)
 

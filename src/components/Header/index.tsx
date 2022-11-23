@@ -15,8 +15,8 @@ export const Header: React.FC<HeaderProps> = ({ toggleTheme, onOpenCart }) => {
   return (
     <HeaderContainer>
       <Logo>
-        <LogoName>MKS</LogoName>
-        <span>Sistemas</span>
+        <LogoName>MS</LogoName>
+        <span>Store</span>
       </Logo>
       <WrapperIcons>
         <Switch
