@@ -8,19 +8,14 @@
    <a href="https://www.linkedin.com/in/lorison-gilles/">
       <img alt="Lorison Gilles" src="https://img.shields.io/badge/-LorisonGilles-8257E5?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/
-ms-store?color=774DD6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/ms-store?color=774DD6">
 
-  <a href="https://github.com/Gilles30/
-ms-store/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/
-ms-store?color=774DD6">
+  <a href="https://github.com/Gilles30/ms-store/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/ms-store?color=774DD6">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
-  <a href="https://github.com/Gilles30/
-ms-store/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/
-ms-store?color=8257E5&logo=github">
+  <a href="https://github.com/Gilles30/ms-store/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/ms-store?color=8257E5&logo=github">
   </a>
 </p>
 
@@ -35,8 +30,7 @@ ms-store?color=8257E5&logo=github">
 <div align="center">
   <sub>O E-commerce de produtos MKS. Construído com ❤︎ por
     <a href="https://github.com/Gilles30">Lorison Gilles</a> and
-    <a href="https://github.com/Gilles30/
-ms-store/">
+    <a href="https://github.com/Gilles30/ms-store/">
       contributors
     </a>
   </sub>
@@ -108,8 +102,7 @@ ms-store/">
 Você pode acessar o site em:
 👉 demo:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://
-ms-store-three.vercel.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://ms-store-three.vercel.app/)
 
 # :computer: Tecnologias
 
